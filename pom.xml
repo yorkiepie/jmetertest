@@ -21,6 +21,12 @@
                         <goals>
                             <goal>jmeter</goal>
                         </goals>
+                        <configuration>
+                            <propertiesUser>
+                                <threads>10</threads>
+                                <testIterations>1</testIterations>
+                            </propertiesUser>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
